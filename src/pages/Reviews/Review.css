@@ -1,0 +1,108 @@
+.reviews_section {
+    background-color: #001427;
+    padding-bottom: 100px;
+}
+
+.reviews_title {
+    font-size: 56px;
+    font-weight: 900;
+    padding-top: 100px;
+    margin-bottom: 64px;
+    text-align: center;
+    color: white;
+}
+
+.reviews_block {
+    display: flex;
+    max-width: 1050px;
+    height: 380px;
+    background-color: #FBFBFB;
+    border-radius: 16px;
+}
+
+.reviews_block img {
+    width: 215px;
+    height: 220px;
+}
+
+.review_info {
+    padding: 40px;
+}
+
+.cuctomer_title {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+.cuctomer_subtitle {
+    font-size: 22px;
+    font-weight: medium;
+    color: #485563;
+    margin-top: 5px;
+}
+
+.customer_text {
+    color: #202523;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.swiper-pagination-bullet {
+    background-color: #18E8A4 !important;
+}
+
+.swiper-pagination {
+    position: relative !important;
+    margin-top: 50px !important;
+}
+
+.swiper-pagination-bullet {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 50px !important;
+    border-radius: 14px !important;
+}
+
+.swiper_button {
+    position: absolute;
+    right: -120px;
+    top: 375px;
+    cursor: pointer;
+    width: 90px;
+}
+
+.swiper-button-disabled {
+    display: none !important;
+}
+
+.buttonPrev {
+    position: absolute;
+    left: -120px;
+    top: 375px;
+    cursor: pointer;
+    width: 90px;
+}
+
+.swiper_button rect {
+    fill: #2FDF84;
+    transition: fill 0.4s;
+}
+
+.swiper_button:hover rect {
+    fill: #24ad6d;
+}
+
+.swiper_button path {
+    fill: black;
+    transition: fill 0.4s;
+}
+
+.swiper_button:hover path {
+    fill: white;
+}

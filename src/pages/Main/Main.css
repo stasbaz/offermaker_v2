@@ -1,0 +1,79 @@
+.main {
+    position: relative;
+    background-color: #001427;
+    width: 100%;
+    z-index: 1;
+}
+
+.main_gradient_top {
+    background: linear-gradient(180deg, rgba(2, 2, 18, 0.62) 0%, rgba(2, 2, 18, 0.10) 76.56%, rgba(2, 2, 18, 0.00) 100%);
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main_gradient_bottom {
+    background: linear-gradient(360deg, #020212 0%, rgba(2, 2, 18, 0.00) 74.02%);
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.main_title {
+    background: var(--Linear, linear-gradient(90deg, #18E8A4 0%, #166088 100%));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 78px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main_title_span {
+    font-weight: 400;
+    color: white;
+}
+
+.main_button_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.main_subtitile {
+    color: white;
+    font-size: 32px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.main_button {
+    color: black;
+    font-size: 36px;
+    background-color: #2FDF84;
+    border-radius: 100px;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 18px 0px;
+    max-width: 360px;
+    width: 100%;
+    margin-top: 74px;
+    margin-bottom: 74px;
+    z-index: 6;
+}
+
+.main_button:hover {
+    background-color: #24ad6d;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.main_button:not(:hover) {
+    background-color: #2FDF84;
+    transition: 0.4s;
+}

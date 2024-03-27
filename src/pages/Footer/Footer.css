@@ -1,0 +1,35 @@
+.footer_block {
+    background-color: #001427;
+    display: flex;
+}
+
+.footer_block_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_block {
+    height: 75px;
+    align-items: center;
+}
+
+.footer_block_wrap p {
+    color: #8C99A5;
+    text-decoration: none;
+}
+
+.footer_block_wrap a {
+    color: #8C99A5;
+    text-decoration: none;
+}
+
+.footer_info_wrap p {
+    padding: 3px;
+}
+
+.footer_tabs_wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}

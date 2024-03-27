@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    position: relative;
+    z-index: 5;
+}
+
+.header_link {
+    color: #2FDF84;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.header_button {
+    color: black;
+    background-color: #2FDF84;
+    border-radius: 100px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 28px;
+}
+
+.header_button:hover {
+    background-color: #24ad6d;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.header_button:not(:hover) {
+    background-color: #2FDF84;
+    transition: 0.4s;
+}
