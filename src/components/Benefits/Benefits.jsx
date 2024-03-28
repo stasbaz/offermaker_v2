@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import BenefitAgriculture from "../../components/Benefits/BenefitAgriculture";
+import BenefitAgriculture from "./BenefitAgriculture";
 import Agriculture from "../../images/Agriculture.svg";
 import HighQuality from "../../images/HighQuality.svg";
 import Match from "../../images/Match.svg";

@@ -1,13 +1,12 @@
 import * as React from "react"
 
-import Main from "../pages/Main/Main";
-import Benefits from "../pages/Benefits/Benefits";
-import YouStart from "../pages/YouStart/YouStart";
-import HowItWorks from "../pages/HowItWorks/HowItWorks";
-import Reviews from "../pages/Reviews/Reviews";
-import Form from "../pages/Form/Form";
-import Footer from "../pages/Footer/Footer";
-
+import Main from "../components/Main/Main";
+import Benefits from "../components/Benefits/Benefits";
+import YouStart from "../components/YouStart/YouStart";
+import HowItWorks from "../components/HowItWorks/HowItWorks";
+import Reviews from "../components/Reviews/Reviews";
+import Form from "../components/Form/Form";
+import Footer from "../components/Footer/Footer";
 
 
 const IndexPage = () => {
